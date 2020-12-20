@@ -21,14 +21,28 @@
 	{{View::make('footer')}}	
 </body>
 <style>
+	.container {
+		padding: 20px;
+	}
+	.navbar {
+		margin:0px;
+	}
 	.custom-login{
 		height: 100vh;
 		padding-top: 100px;
 	}
+
+@media (min-width: 1300px) {
+	.main-slider {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+}
 	img.slider-img {
 		height: 400px !important;
 	}
-	.custom-products {
+	.custom-product {
 		height: 600px;
 	}
 	.carousel-caption {
@@ -38,6 +52,42 @@
 	}
 	.slider-text {
 		background-color: #35443585 !important;
+	}
+	.trending-image {
+		height:100px;
+	}
+	.trending-item {
+	display: flex;
+	}
+	.trending-wrapper-items {
+		padding-top:10px;
+	display: flex;
+	margin:auto;
+	justify-content: space-around;
+	}
+	.footer {
+		clear:both;
+		margin-top:50px;
+	}
+	.margin-left-10 {
+		margin-left:50px;
+	}
+	.detail-img {
+		height: 200px;
+	}
+	.button-area {
+		margin-top: 40px;
+	}
+	.search-box {
+		width:500px !important;
+	}
+	.search-wrapper-items {
+		display: flex;
+  		justify-content: center;
+	}
+	.search-item {
+		margin-left: 50px;
+		display: flex;
 	}
 </style>
 </html>
