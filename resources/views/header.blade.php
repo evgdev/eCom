@@ -12,8 +12,6 @@ if (Session::has('user')) {
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">E-com</a>
     </div>
@@ -32,7 +30,7 @@ if (Session::has('user')) {
         <button type="submit" class="btn btn-default">Search</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Cart ({{$total}})</a></li>
+        <li><a href="/cart">Cart ({{$total}})</a></li>
         @if(Session::has('user'))
  		<li class="dropdown">
         	<a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}

@@ -89,5 +89,13 @@
 		margin-left: 50px;
 		display: flex;
 	}
+	.cart-items {
+		margin-left: 300px;
+	}
+	.cart-list-divide {
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
 </style>
 </html>
